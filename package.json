@@ -1,12 +1,12 @@
 {
   "author": {
-    "name": "D0n9X1n"
+    "name": "rqh656418510"
   },
-  "bugs": {
-    "url": "https://github.com/D0n9X1n/hexo-blog-encrypt/issues"
+  "dependencies": {
+    "hexo-fs": "^1.0.2",
+    "hexo-log": "^0.2.0"
   },
-  "description": "Yet, just another blog encrypt plugin for hexo.",
-  "homepage": "https://github.com/D0n9X1n/hexo-blog-encrypt#readme",
+  "description": "Yet, just another blog encrypt plugin for hexo, base on hexo-blog-encrypt 3.1.3",
   "keywords": [
     "encrypt",
     "blog",
@@ -16,20 +16,16 @@
   "main": "index.js",
   "maintainers": [
     {
-      "email": "D0n9X1n@outlook.com",
-      "name": "D0n9X1n"
+      "name": "rqh656418510"
     }
   ],
-  "name": "hexo-blog-encrypt",
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/D0n9X1n/hexo-blog-encrypt.git"
-  },
+  "name": "hexo-blog-encrypt-customized",
+  "optionalDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint --ext .js ./"
   },
-  "version": "3.1.6",
+  "version": "3.1.8",
   "devDependencies": {
     "eslint": "^6.2.2"
   }
